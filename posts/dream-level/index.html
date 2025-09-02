@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scott Kim&#39;s Inversions: DREAM &amp; LEVEL | nkanaev</title>
+    <link rel="stylesheet" href="/theme/main.css">
+    <link rel="icon" href="/theme/favicon.ico" type="image/x-icon">
+</head>
+<body>
+<div class="wrapper">
+    <header class="sidebar">
+        <a href="/">
+            <img src="/theme/avatar.jpg" class="avatar">
+            <span>syntax terror</span>
+        </a>
+    </header>
+    <div class="content">
+        <article>
+            
+                <h1>Scott Kim&#39;s Inversions: DREAM &amp; LEVEL</h1>
+            
+            <p>A few years back, I stumbled upon Scott Kim&rsquo;s little known book <em>Inversions</em> - a fascinating collection of ambigrams and typographic experiments.
+Despite being published in the early &rsquo;80s, it&rsquo;s full of marvels: horizontally symmetrical words, words that read the same turned upside down, and words formed into grids where letters read differently at the intersections, among other delights.</p>
+<p>While most of the typographic tricks weren&rsquo;t entirely new to me, a couple of them really stood out: <em>Level</em> and <em>Dream</em>. In these, lines are drawn recursively, each part supplementing the whole to form the word itself. The pictures really do speak for themselves:</p>
+<p><img src="./DREAM.png" alt="">
+<img src="./LEVEL.png" alt=""></p>
+<p>When I first came across the images, I got excited about the idea of animating them. SVG seemed like the perfect fit. Since SVG was fairly new for me, it took plenty of trial and error - and a bit of tinkering - to achieve what I had in mind, but I&rsquo;m quite happy with the final result.</p>
+<style>
+.frame { border: 1px solid black; margin: 2rem 0; }
+.frame svg { width: 100%; }
+</style>
+<div class="frame">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500" height="500" viewBox="-5 -5 110 30">
+<g transform-origin="56.7 0">
+<g>
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<animate
+    attributeName="opacity"
+    to="0"
+    dur="5s"
+    calcMode="spline"
+    keySplines="0.5 0 1 1"
+repeatCount="indefinite"
+/>
+</g>
+<g transform="scale(0.5)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.25)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.125)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.0625)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.03125)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.015625)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.0078125)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.00390625)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.001953125)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<g transform="scale(0.0009765625)" transform-origin="56.7 0">
+<path d="M21.35 104.854v41.322h32.512s19.637-1.954 19.637-20.45c0-18.498-19.637-20.872-19.637-20.872z" style="display:inline;fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+<path d="M84.613 146.092v-19.51l25.751 19.51M128.908 126.582h-13.374v19.594h18.337M136.85 146.176l4.974-19.594h16.665l10.133 19.594M179.158 146.176v-19.594M195.862 126.582l14.84 19.594v-41.322l32.004 41.322" style="fill:none;stroke:#000;stroke-width:1.32292;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" transform="matrix(.44908 0 0 .46899 -9.29 -48.865)"/>
+</g>
+<animateTransform
+    attributeName="transform"
+    type="scale"
+    values="1; 2"
+    dur="5s"
+    keyTimes="0; 1"
+    calcMode="spline"
+    keySplines="0.5 0 1 1"
+    repeatCount="indefinite"
+/>
+</g>
+</svg>
+</div>
+<div class="frame">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500" height="500" viewBox="-5 -5 110 35">
+<g transform-origin="51 25">
+<g>
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+<animate
+    attributeName="opacity"
+    to="0"
+    dur="5s"
+    calcMode="spline"
+    keySplines="0.5 0 1 1"
+repeatCount="indefinite"
+/>
+</g>
+<g transform="scale(0.5)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.25)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.125)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.0625)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.03125)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.015625)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.0078125)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.00390625)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.001953125)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<g transform="scale(0.0009765625)" transform-origin="51 25">
+<path d="M0 0h2.811v23.009h21.381V25H0ZM25.45 0h12.725l5.77 11.457h-2.663l-4.726-9.45h-8.462v7.2h10.081v2.25H25.45z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round"/>
+<path d="M57.807 11.457 63.55 0h15.093v23.009L100 22.943V25H76.202V2.007H66.066v7.2h8.804v2.25H63.551V5.153l-3.024 6.304z" style="fill:#000;stroke:none;stroke-width:.529167;stroke-linecap:round;fill-opacity:1"/>
+</g>
+<animateTransform
+    attributeName="transform"
+    type="scale"
+    values="1; 2"
+    dur="5s"
+    keyTimes="0; 1"
+    calcMode="spline"
+    keySplines="0.5 0 1 1"
+    repeatCount="indefinite"
+/>
+</g>
+</svg>
+</div>
+<p>The works remind me of Christopher Nolan&rsquo;s <em>Inception</em>. I don&rsquo;t think that&rsquo;s a coincidence, given that both Nolan and Kim seem to draw inspiration from Borges&rsquo;s works. Anyone familiar with his <em>Circular Ruins</em> - a story that explores <em>dreams</em> and recursive <em>levels</em> of reality - will likely see the connection.</p>
+<h2 id="how">How</h2>
+<p>Here&rsquo;s the brief summary of how I achieved the result. I&rsquo;ll use the first work as an example; the process for the second is fairly similar.</p>
+<p>I started off by retracing the topmost <em>section</em> of the drawing in <em>Inkscape</em>. Using the raster image as a reference on a separate layer, I drew lines on top to get the close match with the original one:</p>
+<p><img src="dream_clean.svg" alt=""></p>
+<p>The nice thing about Inkscape is that it stores project files in SVG format. The not-so-nice part is that the output is bloated and contains lots of metadata. So, instead of parsing it right away, I first ran it through <em>svgo</em> to optimise it:</p>
+<pre><code>$ svgo dream_sketch.svg --pretty -o dream_clean.svg
+</code></pre>
+<p>The cleaned-up version turned out much leaner, consisting of just a couple <code>&lt;path&gt;</code>s grouped by a <code>&lt;g&gt;</code> element. I then cloned the grouping node and resized/moved the copy to determine its scale and coordinates within the viewport. With these values, I calculated the fixed points using the formula:</p>
+<pre><code class="language-python"># f = fixed point (x or y)
+# o = offset of the copy within the viewport (x or y)
+# s = scale
+f = o + (o * s^1) + (o * s^2) + (o * s^3) ...
+
+# Since s &lt; 1, the geometric progression can be simplified to:
+f = o * (1 / (1 - s))
+</code></pre>
+<p>Pre-calculating the fixed point solved two issues:</p>
+<ol>
+<li>It made generating scaled down copies easier without recalculating offsets for each iteration.</li>
+<li>It ensured that elements aligned correctly during animation, landing precisely on the next element’s position after scaling up, which I&rsquo;ll cover below.</li>
+</ol>
+<p>Next, I wrote a script to output the partial shape multiple times, each scaled down geometrically:</p>
+<pre><code class="language-python"># x/y = fixed point, s = scale
+for i in range(10):
+    print(f'&lt;g transform=&quot;scale({s ** (i+1)})&quot; transform-origin=&quot;{x} {y}&quot;&gt;')
+    # ... output the paths
+    print('&lt;/g&gt;')
+</code></pre>
+<p>This generated static version of the image. To bring it to life, I added an infinite scaling animation that smoothly expands the shape from its original size to double the size:</p>
+<pre><code class="language-svg">&lt;animateTransform
+  attributeName=&quot;transform&quot;
+  type=&quot;scale&quot;
+  values=&quot;1; 2&quot;
+  dur=&quot;5s&quot;
+  keyTimes=&quot;0; 1&quot;
+  calcMode=&quot;spline&quot;
+  keySplines=&quot;0.5 0 1 1&quot;
+  repeatCount=&quot;indefinite&quot;
+/&gt;
+</code></pre>
+<p>As a finishing touch, I added a fade-out animation to the topmost element to maintain continuity. Otherwise the element would &ldquo;vanish&rdquo; abruptly when the animation resets and loops back to the beginning:</p>
+<pre><code>&lt;animate
+  attributeName=&quot;opacity&quot;
+  to=&quot;0&quot;
+  dur=&quot;5s&quot;
+  calcMode=&quot;spline&quot;
+  keySplines=&quot;0.5 0 1 1&quot;
+  repeatCount=&quot;indefinite&quot;
+/&gt;
+</code></pre>
+<p>If you’d like to explore further, you can download the source files along with the script <a href="dream_level.zip">here</a>.</p>
+
+        </article>
+
+        
+
+        
+        <footer class="light">01 Sep 2025</footer>
+        
+    </div>
+</div>
+</body>
+</html>

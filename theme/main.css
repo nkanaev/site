@@ -1,128 +1,150 @@
 html {
-  font: 14px / 1.8 Verdana, 'Bitstream Vera Sans', sans-serif;
+    font:
+        14px / 1.8 Verdana,
+        "Bitstream Vera Sans",
+        sans-serif;
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  word-wrap: break-word;
-  hyphens: auto;
+    margin: 0;
+    padding: 0;
+    word-wrap: break-word;
 }
 
 .wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 6rem auto;
+    display: flex;
+    justify-content: center;
+    margin: 6rem auto;
 }
 
 .sidebar {
-  width: 100px;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: right;
-  word-spacing: 100rem;
-  flex-shrink: 0;
-  letter-spacing: 1.7325px;
+    width: 100px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: right;
+    word-spacing: 100rem;
+    flex-shrink: 0;
+    letter-spacing: 1.7325px;
 }
 
 .sidebar a {
-  text-decoration: none;
-  display: block;
+    text-decoration: none;
+    display: block;
 }
 
-.sidebar, h1, h2, h3, h4, h5, h6 {
-  font-family: 'Gill Sans MT', 'Gill Sans', 'Gill Sans Std', Verdana, 'Bitstream Vera Sans', sans-serif;
-  font-weight: 400;
+.sidebar,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family:
+        "Gill Sans MT", "Gill Sans", "Gill Sans Std", Verdana,
+        "Bitstream Vera Sans", sans-serif;
+    font-weight: 400;
 }
 
 article h1 {
-  line-height: 1.3;
+    line-height: 1.3;
 }
 
 .content {
-  margin-left: 5rem;
-  min-width: 500px;
-  max-width: 500px;
+    margin-left: 5rem;
+    min-width: 500px;
+    max-width: 500px;
 }
 
 .content article *:first-child {
-  margin-top: 0;
+    margin-top: 0;
 }
 
 .avatar {
-  width: 3.6rem;
-  height: auto;
-  border-radius: 4px;
+    width: 3.6rem;
+    height: auto;
+    border-radius: 4px;
 }
 
-@media(max-width: 700px) {
-  .wrapper {
-    margin: 5rem 2rem;
-    flex-direction: column;
-  }
-  .sidebar {
-    word-spacing: 0;
-    width: 100%;
-    text-align: center;
-    margin-bottom: 5rem;
-  }
-  .sidebar .avatar {
-    display: block;
-    margin: 0 auto 0.4rem auto;
-  }
-  .content {
-    min-width: 100%;
-    max-width: 100%;
-    margin: 0;
-  }
+@media (max-width: 700px) {
+    .wrapper {
+        margin: 5rem 2rem;
+        flex-direction: column;
+    }
+    .sidebar {
+        word-spacing: 0;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+    .sidebar .avatar {
+        display: block;
+        margin: 0 auto 0.4rem auto;
+    }
+    .content {
+        min-width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
 }
 
-section { margin: 4rem 0; }
-footer  { margin: 2rem 0; }
+section {
+    margin: 4rem 0;
+}
+footer {
+    margin: 2rem 0;
+}
 
-a       { color: inherit; }
-a:hover { color: steelblue; }
-.light  { color: #aaa; }
+a {
+    color: inherit;
+}
+a:hover {
+    color: steelblue;
+}
+.light {
+    color: #aaa;
+}
 
 section ul,
 article ul {
-  list-style-type: circle;
-  padding-inline-start: 1rem;
-  margin: 0;
+    list-style-type: circle;
+    padding-inline-start: 1rem;
+    margin: 0;
 }
 
 article h1 {
-  font-size: 1.55rem;
+    font-size: 1.55rem;
 }
 
 section h2,
 article h2,
 article h3,
 article h4 {
-  margin: 3rem 0 0;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  font-weight: 600;
-  letter-spacing: 1.7px;
+    margin: 3rem 0 0;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1.7px;
 }
 
 article pre {
-  padding: 0.7rem 1rem;
-  margin: 0 -1em;
-  background: rgba(0, 0, 0, 0.03);
-  border-radius: 3px;
-  overflow-x: scroll;
+    padding: 0.7rem 1rem;
+    margin: 0 -1em;
+    background: rgba(0, 0, 0, 0.03);
+    border-radius: 3px;
+    overflow-x: scroll;
 }
 
-article img, article video {
-  display: block;
-  width: 100%;
-  border-radius: 3px;
+article img,
+article video {
+    display: block;
+    width: 100%;
+    border-radius: 3px;
 }
 
-article p code, article ul code {
-  background-color: #eee;
-  border-radius: 3px;
-  padding: 0 .25rem;
-  font-family: monospace;
+article p code,
+article ul code {
+    background-color: #eee;
+    border-radius: 3px;
+    padding: 0 0.25rem;
+    font-family: monospace;
 }
