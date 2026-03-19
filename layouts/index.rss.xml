@@ -5,7 +5,7 @@
         <link>{{ .Permalink }}</link>
         {{ range where .Site.RegularPages "Section" "posts" }}
         <item>
-            <title>{{ .Title }}></title>
+            <title>{{ .Title }}</title>
             <link>{{ .Permalink }}</link>
             <guid isPermaLink="false">{{ .RelPermalink }}</guid>
             <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
