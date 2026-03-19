@@ -1,0 +1,12 @@
+{{ define "main" }}
+<article>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+</article>
+
+{{ if not .Date.IsZero }}
+<footer class="light">
+    {{ .Date.Format "02 Jan 2006" }}
+</footer>
+{{ end }}
+{{ end }}

@@ -1,0 +1,28 @@
+{{ define "main" }}
+<article>
+    {{ .Content }}
+</article>
+
+<section>
+    <h2>works</h2>
+    <ul>
+    {{ range where .Site.RegularPages "Section" "works" }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a> - {{ .Params.desc }}
+        </li>
+    {{ end }}
+    </ul>
+</section>
+
+<section>
+    <h2>posts</h2>
+    <ul>
+    {{ range where .Site.RegularPages "Section" "posts" }}
+        <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            <span class="light">{{ .Date.Format "02 Jan 2006" }}</span><br>
+        </li>
+    {{ end }}
+    </ul>
+</section>
+{{ end }}

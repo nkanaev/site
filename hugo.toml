@@ -1,0 +1,19 @@
+baseURL = "https://nkanaev.com/"
+languageCode = "en"
+title = "nkanaev"
+
+disableKinds = ["taxonomy", "term"]
+
+[outputFormats]
+  [outputFormats.RSS]
+    baseName = "feed"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    codeFences = false

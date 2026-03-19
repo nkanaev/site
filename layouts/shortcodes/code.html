@@ -1,0 +1,6 @@
+{{ $name := .Get 0 }}
+{{ $resource := .Page.Resources.GetMatch $name }}
+{{ if $resource }}
+{{ $ext := path.Ext $name | strings.TrimPrefix "." -}}
+<pre><code>{{ $resource.Content }}</code></pre>
+{{ end }}
