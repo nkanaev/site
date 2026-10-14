@@ -15,7 +15,7 @@ When I first came across the images, I got excited about the idea of animating t
 
 <style>
 .frame { border: 1px solid black; margin: 2rem 0; }
-.frame svg { width: 100%; }
+.frame svg { width: 100%; height: auto; }
 </style>
 
 <div class="frame">

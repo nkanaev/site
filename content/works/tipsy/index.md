@@ -14,7 +14,7 @@ The project is written in ~500 lines of C99. This includes
 a parser for a subset of Wavefront .obj file format,
 functions for vector operations and a graphics rasterizer.
 The rest (basic drawing helpers, mouse/keyboard input, PNG reader)
-is handled by Erik Agsjö [magnificent little library][tigr].
+is handled by Erik Agsjö's [magnificent little library][tigr].
 
 Source code: https://github.com/nkanaev/tipsy
 
